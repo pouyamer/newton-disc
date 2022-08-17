@@ -1,7 +1,7 @@
 const config = {
   canvas: {
     size: { width: innerWidth, height: innerHeight },
-    background: "#000"
+    background: "#051724"
   },
   disc: {
     color: {
