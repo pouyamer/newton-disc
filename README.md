@@ -3,3 +3,4 @@
 The legend has it that it spins and it'll become white :O
 ## Configurations
 Edit the `config.js` file to your heart's content.
+https://pouyamer.github.io/newton-disc/
