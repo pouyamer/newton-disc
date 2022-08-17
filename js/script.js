@@ -14,14 +14,15 @@ const center = { x: size.width / 2, y: size.height / 2 }
 const slices = Array(config.disc.slices)
   .fill()
   .map((_, i) => {
+    const { PI } = Math
     const { slices, radius, color } = config.disc
     const { saturation, lightness } = color
     return new Slice(
       center.x,
       center.y,
       radius,
-      i * ((2 * Math.PI) / slices),
-      (i + 1) * ((2 * Math.PI) / slices),
+      i * ((2 * PI) / slices),
+      (i + 1) * ((2 * PI) / slices),
       hslStringify((i * 360) / slices, saturation, lightness)
     )
   })
